@@ -2,6 +2,7 @@
 
 <ul>
     {{#each people as |person|}}
+    {{!-- list names with a click event added --}}
         <li {{action "showPerson" person}}>{{person}}</li>
     {{/each}}
 </ul>
